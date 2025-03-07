@@ -1,3 +1,8 @@
+
+# Install Bootstrap
+
+npx create-react-app react_router
+
 # Install Bootstrap
 
 npm i bootstrap
