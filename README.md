@@ -6,6 +6,8 @@ npx create-react-app react_router
 # Install Bootstrap
 
 npm i bootstrap
+Add below in index.js
+import "bootstrap/dist/css/bootstrap.min.css";
 
 # Install React router DOM
 
