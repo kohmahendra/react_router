@@ -63,7 +63,13 @@ export const housingLoader = async () => {
     method: "GET",
   })
     .then((res2) => {
-      //setTimeout(1000,()=>{console.log('done')});
+      /*
+      setTimeout(() => {
+        console.log("timeout done!");
+        setHousing(response.data);
+      }, 2000);
+      
+      */
       respo = res2.data;
       respo.sort((a, b) => {
         if (parseInt(a.price) < parseInt(b.price)) {
